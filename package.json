@@ -1,0 +1,37 @@
+{
+  "name": "sealvexa",
+  "version": "1.2.0",
+  "description": "Seal a directory of JavaScript modules into one password-protected file, then open, mount, and load them.",
+  "main": "lib/index.js",
+  "bin": {
+    "sealvexa": "bin/sealvexa.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test test/sealvexa.test.js"
+  },
+  "keywords": [
+    "encryption",
+    "aes-256-gcm",
+    "scrypt",
+    "modules",
+    "sealvexa"
+  ],
+  "author": "James Loop <jamesloop115@proton.me> (https://github.com/jamesloop115)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealvexa/sealvexa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sealvexa/sealvexa/issues"
+  },
+  "homepage": "https://github.com/sealvexa/sealvexa#readme"
+}
